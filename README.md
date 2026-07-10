@@ -1,0 +1,41 @@
+Title
+Student Record Management System
+
+Problem Statement
+In many schools and colleges, student details are maintained manually using paper records or Excel sheets. 
+This method is time consuming and prone to errors. 
+It is difficult to search, update and retrieve student information quickly. 
+There is also a high risk of data loss and duplication. 
+To solve this problem, a digital Student Record Management System is needed to manage student data efficiently and accurately.
+
+Objective
+1. To digitize and store student records in a centralized database
+2. To provide easy options to Add, View, Search, Update and Delete student details
+3. To reduce manual work and paperwork
+4. To avoid data duplication and maintain data accuracy
+5. To save time for teachers and administrative staff
+6. To generate reports easily whenever needed
+
+ Modules
+1. **Login Module** - For admin authentication and secure access
+2. **Add Student Module** - To add new student details to the system
+3. **View Records Module** - To display all student records in a list
+4. **Search Module** - To search students by Roll No, Name, or Department
+5. **Update Module** - To edit and update existing student information
+6. **Delete Module** - To delete student records from the database
+7. **Report Module** - To generate student reports and statistics
+
+Table
+
+| Field Name   | Data Type     | Key         | Description                  |
+|--------------|---------------|-------------|------------------------------|
+| RollNo       | INT           | Primary Key | Unique Student Roll Number   |
+| Name         | VARCHAR(100)  | NOT NULL    | Student Full Name            |
+| Department   | VARCHAR(50)   | NOT NULL    | Department/Branch            |
+| Year         | INT           |             | Academic Year                |
+| Gender       | VARCHAR(10)   |             | Male / Female / Other        |
+| DOB          | DATE          |             | Date of Birth                |
+| Phone        | VARCHAR(15)   |             | Contact Number               |
+| Email        | VARCHAR(100)  | UNIQUE      | Email Address                |
+| Marks        | FLOAT         |             | Total Marks / CGPA           |
+| Address      | VARCHAR(255)  |             | Student Address              |
